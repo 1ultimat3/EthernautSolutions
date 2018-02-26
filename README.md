@@ -62,7 +62,7 @@ contract Force {
 }
 ```
 
-# 6. King
+## 6. King
 
 The idea here is to create a contract with a reverting fallback function.
 
@@ -83,7 +83,7 @@ function() public payable {
 }
 ```
 
-# 7. Reentrancy
+## 7. Reentrancy
 
 In memory of the good old DAO hack, we need to determine in which "recursion depth" we are (here variable *exploited* is used):
 
@@ -118,7 +118,7 @@ contract ExploitReentrancy {
 }
 ```
 
-# 8. Elevator
+## 8. Elevator
 The view modifier is not verified by the solidity compiler, therefore we can still change the state.
 
 ```
